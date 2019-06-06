@@ -1,0 +1,21 @@
+//-------------------------Template from Manual-----------------------
+//https://wiki.jenkins.io/display/JENKINS/Amazon+EC2+Container+Service+Plugin
+
+{
+  "family": "introsite-signup",
+  "containerDefinitions": [
+    {
+      "image": "117709486840.dkr.ecr.eu-central-1.amazonaws.com/introsite:v_%BUILD_NUMBER%",
+      "name": "introsite-signup",
+      "cpu": 10,
+      "memory": 2048,
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 80,
+          "hostPort": 8880
+        }
+      ]
+    }
+  ]
+}
