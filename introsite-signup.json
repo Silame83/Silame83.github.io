@@ -1,5 +1,5 @@
 //-------------------------Template from Manual-----------------------
-//https://wiki.jenkins.io/display/JENKINS/Amazon+EC2+Container+Service+Plugin
+//https://aws.amazon.com/blogs/devops/set-up-a-build-pipeline-with-jenkins-and-amazon-ecs/
 
 {
   "family": "introsite-signup",
