@@ -41,6 +41,10 @@ header{
 	margin-top: 33px;
 }
 
+a.btn:hover{
+	background-color: grey;
+}
+
 header small{
 	display: block;
 	font-size: 12px;
