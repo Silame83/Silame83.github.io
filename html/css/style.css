@@ -41,7 +41,7 @@ header{
 	margin-top: 33px;
 }
 
-a.btn:hover{
+.btn a:hover{
 	background-color: grey;
 	transition: top 1s ease-out 0.5s;
 }
